@@ -1,0 +1,12 @@
+type Todo {
+  id: ID!
+  text: String!
+  done: Boolean!
+  date: String!
+}
+
+input NewTodo {
+  text: String!
+  done: Boolean!
+  date: String!
+}
